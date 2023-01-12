@@ -1,0 +1,68 @@
+:root {
+  --dark_red-color: #980001;
+  --accent-color: rgb(250, 43, 46);
+  --army_green-color: #283618;
+  --green-color: rgba(22, 170, 0, 0.87);
+  --gray-color: #2b2d42;
+  --light_gray-color: rgb(153, 153, 153);
+
+  --heading-font: 4.5rem;
+  --h2-font: 3rem;
+  --h3-font: 2.2rem;
+  --h4-font: 2rem;
+  --h5-font: 1.8rem;
+  --p-font: 1.6rem;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* !---------copy of content_center in index.html------ */
+/** ---------all style of hero section is in general.css */
+
+/* !---------- section paragraph ----------- */
+section p,
+article p {
+  width: 85%;
+  font-size: var(--h5-font);
+  line-height: 3.5rem;
+  margin: 3rem auto;
+}
+
+section p .highlight,
+article p .highlight {
+  color: var(--accent-color);
+  font-size: var(--h5-font);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/*!-------- vision section-------------  */
+/** all style is in general.css */
+
+/* !----------core values---------- */
+.core_values--container {
+  width: 86%;
+  margin: 3rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.5rem;
+}
+.core_content--container {
+  background-color: white;
+  border-radius: 1rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+.core_content--container h4 {
+  color: var(--accent-color);
+  font-size: var(--h4-font);
+  font-weight: 600;
+}
+.core_content--container p {
+  color: var(--gray-color);
+  margin-top: 1.5rem;
+}
+
+/* ?--------------- mobile settings is in mobile.css -----*/

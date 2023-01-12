@@ -1,0 +1,14 @@
+#980001
+
+light red
+rgb(250, 43, 46)
+
+#2b2d42 - gray
+
+rgb(153, 153, 153) - light gray
+
+#283618 - army green
+
+rgba(22,170,0,.87) - active green
+
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 12% 75%, 8% 85%, 5% 75%, 0% 75%);
